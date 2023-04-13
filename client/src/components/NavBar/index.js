@@ -5,8 +5,8 @@ function NavBar() {
     return (
         <nav className="navigation">
             <div className="navigation-marque">
-                <h1>Développer front React</h1>
-                <span>William - Vandal</span>
+                <h1 className="navigation-title">Développeur front React</h1>
+                <span className="navigation-name">William - Vandal</span>
             </div>
             <ul className="navigation-ul">
                 <li className="navigation-li"><NavLink className="navigation-link" to='/'>Profil</NavLink></li>

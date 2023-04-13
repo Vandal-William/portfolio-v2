@@ -1,0 +1,36 @@
+@import "../../var";
+@import "../../animation";
+
+.profil{
+    width: 80%;
+    height: 350px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    border-radius: 15px;
+    box-shadow: $shadow;
+    opacity: 0;
+    transform: translateX(100%);
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    
+
+    &-image_container{
+        width: 20%;
+        height: 274px;
+        border-radius:$radius;
+        background: url(../../images/photo.jpg) no-repeat;
+        background-size:contain;
+    }
+    &-title{
+        color: $primary;
+    }
+    &-description{
+        width: 40%;
+    }
+}
+
