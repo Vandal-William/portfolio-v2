@@ -17,6 +17,10 @@ body {
   align-items: center;
 }
 
+.project-video{
+  max-width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
