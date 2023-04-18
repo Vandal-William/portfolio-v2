@@ -2,7 +2,7 @@ import './styles.scss';
 function Project (){
     return (
         <main className='main-flex'>
-            <div className="card">
+            <div className="card-project">
                 <div className="face face-front1">
 
                 </div>
@@ -12,7 +12,7 @@ function Project (){
                 </div>
             </div>
 
-            <div className="card">
+            <div className="card-project">
                 <div className="face face-front2">
                 
                 </div>
@@ -22,7 +22,7 @@ function Project (){
                 </div>
             </div>
 
-            <div className="card">
+            <div className="card-project">
                 <div className="face face-front3">
 
                 </div>
@@ -32,7 +32,7 @@ function Project (){
                 </div>
             </div>
 
-            <div className="card">
+            <div className="card-project">
                 <div className="face face-front4">
 
                 </div>
@@ -42,7 +42,7 @@ function Project (){
                 </div>
             </div>
 
-            <div className="card">
+            <div className="card-project">
                 <div className="face face-front5">
 
                 </div>
@@ -52,7 +52,7 @@ function Project (){
                 </div>
             </div>
 
-            <div className="card">
+            <div className="card-project">
                 <div className="face face-front6">
 
                 </div>

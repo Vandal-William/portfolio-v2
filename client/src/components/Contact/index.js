@@ -1,6 +1,22 @@
+import './styles.scss';
 function Contact (){
     return (
-        <h1>Contact</h1>
+        <div className="container">
+
+            <div className="card">
+
+            </div>
+            <div className="card">
+
+            </div>
+            <div className="card">
+
+            </div>
+            <div className="card">
+
+            </div>
+
+        </div>
     )
 }
 
