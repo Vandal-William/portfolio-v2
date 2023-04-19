@@ -7,6 +7,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transform: translateX(100%);
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 
 }
 .card{
@@ -18,6 +24,9 @@
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.514) ;
     border-radius: $radius;
     transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .card:not(:first-child){
     transition: 0.5s;
@@ -30,4 +39,18 @@
 .card:hover ~ .card{
     transition: 0.5s;
     left: 220px;
+}
+
+.info-title{
+    color: $primary;
+    text-align: center;
+    margin-left: 30%;
+}
+.info-project{
+    color: $primary;
+    transform: rotate(90deg);
+}
+.info-info{
+    
+    padding-right: 10px;
 }
